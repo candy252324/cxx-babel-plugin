@@ -5,7 +5,7 @@
 ## 本地调试
 
 ```shell
-npm run dev
+npm run dist
 ```
 该命令会将 `/example/index.js` 中的代码进行编译，并输出到同级目录的 `dist.js`中，方便查看编译结果是否符合预期。
 

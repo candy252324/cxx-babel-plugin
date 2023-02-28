@@ -7,13 +7,15 @@
   "description": "babel插件",
   "main": "index.js",
   "scripts": {
-    "dev": "babel ./example/index.js --watch --out-file ./example/dist.js"
+    "dist": "babel ./example/index.js --out-file ./example/dist.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/types": "^7.21.2"
   }
 }

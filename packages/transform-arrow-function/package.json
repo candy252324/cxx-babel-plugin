@@ -1,6 +1,6 @@
 {
   "name": "@cxx-plugin/babel-plugin-transform-arrow-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "directories": {

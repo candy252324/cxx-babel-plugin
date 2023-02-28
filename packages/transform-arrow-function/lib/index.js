@@ -1,8 +1,8 @@
 module.exports=()=>{
   return {
     visitor: {
-      ArrowFunctionExpression(path) {
-        console.log(path)
+      ArrowFunctionExpression(node) {
+        console.log(node.type)
       },
     },
   }

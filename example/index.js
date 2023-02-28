@@ -1,3 +1,3 @@
-const a=()=>{
-  console.log(123)
+const sum = (a, b) => {
+  return a + b
 }

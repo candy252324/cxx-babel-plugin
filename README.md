@@ -1,9 +1,11 @@
 # babel 插件
 
+个人babel插件库。
+
 ## 本地调试
 
 ```shell
-npm run dist
+npm run dev
 ```
 该命令会将 `/example/index.js` 中的代码进行编译，并输出到同级目录的 `dist.js`中，方便查看编译结果是否符合预期。
 

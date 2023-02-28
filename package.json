@@ -7,7 +7,7 @@
   "description": "babel插件",
   "main": "index.js",
   "scripts": {
-    "dist": "babel ./example/index.js --out-file ./example/dist.js"
+    "dev": "babel ./example/index.js --watch --out-file ./example/dist.js"
   },
   "keywords": [],
   "author": "",

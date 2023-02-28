@@ -1,5 +1,5 @@
 {
-  "name": "@cxx-babel-plugin/transform-arrow-function",
+  "name": "@cxx-plugin/babel-plugin-transform-arrow-function",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

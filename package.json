@@ -4,6 +4,7 @@
   "workspaces": [
     "/packages/*"
   ],
+  "private": true,
   "description": "babel插件",
   "main": "index.js",
   "scripts": {
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
-    "@babel/types": "^7.21.2"
+    "@babel/types": "^7.21.2",
+    "@cxx-plugin/babel-plugin-transform-arrow-function": "^1.0.0"
   }
 }
